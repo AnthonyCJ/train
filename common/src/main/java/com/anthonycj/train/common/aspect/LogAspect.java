@@ -1,4 +1,4 @@
-package com.anthonycj.train.member.aspect;
+package com.anthonycj.train.common.aspect;
 
 import cn.hutool.core.util.RandomUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -25,7 +25,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Component
 public class LogAspect {
     public LogAspect() {
-        System.out.println("LogAspect");
+        System.out.println("CommonLogAspect");
     }
 
     private final static Logger LOG = LoggerFactory.getLogger(LogAspect.class);
@@ -98,5 +98,4 @@ public class LogAspect {
         LOG.info("------------- 结束 耗时：{} ms -------------", System.currentTimeMillis() - startTime);
         return result;
     }
-
 }
