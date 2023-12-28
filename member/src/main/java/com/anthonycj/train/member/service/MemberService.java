@@ -1,6 +1,8 @@
 package com.anthonycj.train.member.service;
 
 import cn.hutool.core.collection.CollUtil;
+import com.anthonycj.train.common.exception.BusinessException;
+import com.anthonycj.train.common.exception.BusinessExceptionEnum;
 import com.anthonycj.train.member.domain.Member;
 import com.anthonycj.train.member.domain.MemberExample;
 import com.anthonycj.train.member.mapper.MemberMapper;
@@ -36,7 +38,7 @@ public class MemberService {
         // 如果list非空，说明手机号已被注册，抛异常中断业务
         if (CollUtil.isNotEmpty(list)) {
             // return list.get(0).getId();
-            throw new RuntimeException("手机号已注册");
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
         Member member = new Member();
