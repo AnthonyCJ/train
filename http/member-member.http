@@ -1,4 +1,15 @@
+# gtr生成GET请求
 GET http://localhost:8000/member/member/count
 Accept: application/json
+
+###
+
+# ptr生成POST请求
+# ptrp生成带参数的POST请求
+# 参数的名字要和controller层方法中的参数名称一致，这样才能做自动映射
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=15011110000
 
 ###
