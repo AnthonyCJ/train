@@ -4,6 +4,7 @@ import cn.hutool.core.collection.CollUtil;
 import com.anthonycj.train.member.domain.Member;
 import com.anthonycj.train.member.domain.MemberExample;
 import com.anthonycj.train.member.mapper.MemberMapper;
+import com.anthonycj.train.member.req.MemberRegisterReq;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
@@ -21,10 +22,11 @@ public class MemberService {
 
     /**
      * 会员注册
-     * @param mobile 电话号码
+     * @param req 封装请求数据对象
      * @return train_member数据库member表对应id
      */
-    public long register(String mobile) {
+    public long register(MemberRegisterReq req) {
+        String mobile = req.getMobile();
         // 插入前先确认该电话号是否已经注册
         MemberExample memberExample = new MemberExample();
         // 创建条件 'where mobile =='
