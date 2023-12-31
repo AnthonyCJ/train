@@ -3,6 +3,7 @@ package com.anthonycj.train.member.service;
 import cn.hutool.core.collection.CollUtil;
 import com.anthonycj.train.common.exception.BusinessException;
 import com.anthonycj.train.common.exception.BusinessExceptionEnum;
+import com.anthonycj.train.common.util.SnowUtil;
 import com.anthonycj.train.member.domain.Member;
 import com.anthonycj.train.member.domain.MemberExample;
 import com.anthonycj.train.member.mapper.MemberMapper;
@@ -42,8 +43,8 @@ public class MemberService {
         }
 
         Member member = new Member();
-        // id先暂时使用系统的时间戳
-        member.setId(System.currentTimeMillis());
+        // id生成使用hutool封装的雪花算法
+        member.setId(SnowUtil.getSnowflakeNextId());
         member.setMobile(mobile);
         memberMapper.insert(member);
         return member.getId();
