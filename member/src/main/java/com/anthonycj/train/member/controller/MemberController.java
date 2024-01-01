@@ -1,14 +1,14 @@
 package com.anthonycj.train.member.controller;
 
 import com.anthonycj.train.common.resp.CommonResp;
+import com.anthonycj.train.member.req.MemberLoginReq;
 import com.anthonycj.train.member.req.MemberRegisterReq;
+import com.anthonycj.train.member.req.MemberSendCodeReq;
+import com.anthonycj.train.member.resp.MemberLoginResp;
 import com.anthonycj.train.member.service.MemberService;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/member")
@@ -33,5 +33,17 @@ public class MemberController {
         // commonResp.setContent(registerId);
         // return commonResp;
         return new CommonResp<>(registerId);
+    }
+
+    @PostMapping("/send-code")
+    public CommonResp<Long> sendCode(@Valid @RequestBody MemberSendCodeReq req) {
+        memberService.sendCode(req);
+        return new CommonResp<>();
+    }
+
+    @PostMapping("/login")
+    public CommonResp<MemberLoginResp> login(@Valid @RequestBody MemberLoginReq req) {
+        MemberLoginResp resp = memberService.login(req);
+        return new CommonResp<>(resp);
     }
 }
