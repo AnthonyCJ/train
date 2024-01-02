@@ -1,3 +1,11 @@
+DELETE http://localhost:8000/member/passenger/delete/1742203248661630976
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T232428.200.json
+
+###
+
 POST http://localhost:8000/member/passenger/save
 Content-Type: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
@@ -512,13 +520,6 @@ Content-Type: application/x-www-form-urlencoded
 mobile=
 
 <> 2023-12-30T113339.200.json
-
-###
-
-POST http://localhost:8000/member/member/register
-Content-Type: application/x-www-form-urlencoded
-
-<> 2023-12-30T113314.200.json
 
 ###
 
