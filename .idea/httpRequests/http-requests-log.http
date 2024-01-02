@@ -1,5 +1,33 @@
 GET http://localhost:8000/member/passenger/query-list
 Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T200845.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T200705.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T200631.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
 
 <> 2024-01-02T174141.200.json
@@ -482,31 +510,6 @@ Content-Type: application/x-www-form-urlencoded
 mobile=15011110002
 
 <> 2023-12-28T210118.200.json
-
-###
-
-POST http://localhost:8000/member/member/register
-Content-Type: application/x-www-form-urlencoded
-
-mobile=15011110002
-
-<> 2023-12-28T173541.200.json
-
-###
-
-POST http://localhost:8000/member/member/register
-Content-Type: application/x-www-form-urlencoded
-
-mobile=15011110002
-
-<> 2023-12-28T171236.500.json
-
-###
-
-GET http://localhost:8000/member/member/count
-Accept: application/json
-
-<> 2023-12-28T170245.200.json
 
 ###
 
