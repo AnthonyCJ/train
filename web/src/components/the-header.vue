@@ -8,6 +8,7 @@
       </router-link>
     </div>
     <a-menu
+        v-model:selectedKeys="selectedKeys"
         theme="dark"
         mode="horizontal"
         :style="{ lineHeight: '64px' }"
@@ -27,16 +28,24 @@
 </template>
 
 <script>
-import {defineComponent} from 'vue';
+import {defineComponent, ref, watch} from 'vue';
 import store from "@/store";
+import router from '@/router'
 
 export default defineComponent({
   name: "the-header-view",
   setup() {
     let member = store.state.member;
+    const selectedKeys = ref([]);
 
+    watch(() => router.currentRoute.value.path, (newValue) => {
+      console.log('watch', newValue);
+      selectedKeys.value = [];
+      selectedKeys.value.push(newValue);
+    }, {immediate: true});
     return {
-      member
+      member,
+      selectedKeys
     };
   },
 });
