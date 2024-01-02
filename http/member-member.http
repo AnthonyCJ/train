@@ -1,6 +1,7 @@
 # gtr生成GET请求
 GET http://localhost:8000/member/member/count
 Accept: application/json
+token: 123
 
 ###
 # ptr生成POST请求
