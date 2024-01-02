@@ -8,6 +8,34 @@ token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6
   "type": "1"
 }
 
+<> 2024-01-02T164029.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T164006.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
 <> 2024-01-02T162655.200.json
 
 ###
@@ -480,24 +508,6 @@ Content-Type: application/x-www-form-urlencoded
 mobile=15011110002
 
 <> 2023-12-28T170058.200.json
-
-###
-
-POST http://localhost:8000/member/member/register
-Content-Type: application/x-www-form-urlencoded
-
-mobile=15011110001
-
-<> 2023-12-28T164111.200.json
-
-###
-
-POST http://localhost:8000/member/member/register
-Content-Type: application/x-www-form-urlencoded
-
-mobile=15011110000
-
-<> 2023-12-28T164049.500.json
 
 ###
 
