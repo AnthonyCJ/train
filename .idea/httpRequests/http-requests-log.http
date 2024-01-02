@@ -1,5 +1,32 @@
 POST http://localhost:8000/member/passenger/save
 Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T153524.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T153456.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA0NTQsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2Njg1NCwiaWF0IjoxNzA0MTgwNDU0fQ.C66PUs0OJdr_0KdSSHfDdj2b4r37dWVrN1iY2QwHz6A
 
 {
@@ -460,20 +487,6 @@ Content-Type: application/x-www-form-urlencoded
 mobile=15011110000
 
 <> 2023-12-28T160435.200.json
-
-###
-
-GET http://localhost:8000/member/member/count
-Accept: application/json
-
-<> 2023-12-27T180325.200.json
-
-###
-
-GET http://localhost:8000/member/member/count
-Accept: application/json
-
-<> 2023-12-26T173441.200.json
 
 ###
 
