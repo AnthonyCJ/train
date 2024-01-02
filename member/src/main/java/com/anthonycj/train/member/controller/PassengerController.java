@@ -2,6 +2,7 @@ package com.anthonycj.train.member.controller;
 
 import com.anthonycj.train.common.context.LoginMemberContext;
 import com.anthonycj.train.common.resp.CommonResp;
+import com.anthonycj.train.common.resp.PageResp;
 import com.anthonycj.train.member.req.PassengerQueryReq;
 import com.anthonycj.train.member.req.PassengerSaveReq;
 import com.anthonycj.train.member.resp.PassengerQueryResp;
@@ -26,9 +27,9 @@ public class PassengerController {
     }
 
     @GetMapping("/query-list")
-    public CommonResp<List<PassengerQueryResp>> queryList(@Valid PassengerQueryReq req) {
+    public CommonResp<PageResp<PassengerQueryResp>> queryList(@Valid PassengerQueryReq req) {
         req.setMemberId(LoginMemberContext.getId());
-        List<PassengerQueryResp> list = passengerService.queryList(req);
+        PageResp<PassengerQueryResp> list = passengerService.queryList(req);
         return new CommonResp<>(list);
     }
 
