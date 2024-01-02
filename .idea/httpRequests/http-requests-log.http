@@ -2,6 +2,14 @@ GET http://localhost:8000/member/passenger/query-list?page=1&size=2
 Accept: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
 
+<> 2024-01-02T210546.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=1&size=2
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
 <> 2024-01-02T205941.200.json
 
 ###
@@ -495,15 +503,6 @@ POST http://localhost:8000/member/member/register
 Content-Type: application/x-www-form-urlencoded
 
 <> 2023-12-30T113236.200.json
-
-###
-
-POST http://localhost:8000/member/member/register
-Content-Type: application/x-www-form-urlencoded
-
-mobile=15011110003
-
-<> 2023-12-30T113153.200.json
 
 ###
 
