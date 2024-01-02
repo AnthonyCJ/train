@@ -1,0 +1,525 @@
+DELETE http://localhost:8000/member/passenger/delete/1742203248661630976
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T232428.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+{
+  "id": 1742100142410043392,
+  "memberId": 1741749327388348416,
+  "name": "test1",
+  "idCard": "230107",
+  "type": "1"
+}
+
+<> 2024-01-02T225639.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T225041.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=1&size=2
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T210546.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=1&size=2
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T205941.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=2&size=2
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T205928.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=1&size=100
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T204006.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=2&size=200
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T203958.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=2&size=2
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T203930.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=1&size=2
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T203913.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T200845.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxOTcxOTAsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI4MzU5MCwiaWF0IjoxNzA0MTk3MTkwfQ.jawG_32z7DjD6YPQXyqqzrkYzX5Y0-U2rkLAQPRsFiY
+
+<> 2024-01-02T200705.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T200631.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+<> 2024-01-02T174141.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T164029.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T164006.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T162655.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T162122.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA4OTYsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NzI5NiwiaWF0IjoxNzA0MTgwODk2fQ.ymPDELu8Dx_mBtOjHrTtLnSUnnjVSkZ4Rxg8NoBAYzY
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T153524.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T153456.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODA0NTQsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2Njg1NCwiaWF0IjoxNzA0MTgwNDU0fQ.C66PUs0OJdr_0KdSSHfDdj2b4r37dWVrN1iY2QwHz6A
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T152734.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxODAxNDUsIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NjU0NSwiaWF0IjoxNzA0MTgwMTQ1fQ.C-u2POvPEWCwQLjYg2i_GmsMWWcttV6crOqOX7pUK6g
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T152226.200.json
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxNzk4OTksIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NjI5OSwiaWF0IjoxNzA0MTc5ODk5fQ.UFtSW8BKp2OoNqMeKGKCbkfI4SCzRQYWQ3Xzm9Z3brQ
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQxNzk4OTksIm1vYmlsZSI6IjEzMDAwMDAwMDAxIiwiaWQiOjE3NDE3NDkzMjczODgzNDg0MTYsImV4cCI6MTcwNDI2NjI5OSwiaWF0IjoxNzA0MTc5ODk5fQ.UFtSW8BKp2OoNqMeKGKCbkfI4SCzRQYWQ3Xzm9Z3brQ
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T151819.200.json
+
+###
+
+POST http://localhost:8001/member/passenger/save
+Content-Type: application/json
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T145803.200.json
+
+###
+
+POST http://localhost:8001/member/passenger/save
+Content-Type: application/json
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+<> 2024-01-02T145038.200.json
+
+###
+
+GET http://localhost:8000/member/hello
+Accept: application/json
+
+<> 2024-01-02T112757.200.json
+
+###
+
+GET http://localhost:8000/member/hello
+Accept: application/json
+
+<> 2024-01-02T110604.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T102320.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-02T100019.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13000000001",
+  "code": "8888"
+}
+
+<> 2024-01-01T201628.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/json
+
+{
+  "mobile": "13000000001"
+}
+
+<> 2024-01-01T200644.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/x-www-form-urlencoded
+
+mobile=13000000001&code=8888
+
+<> 2024-01-01T171416.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/x-www-form-urlencoded
+
+mobile=13000000001
+
+<> 2024-01-01T171403.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/x-www-form-urlencoded
+
+mobile=13000000001&code=1234
+
+<> 2024-01-01T171346.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/x-www-form-urlencoded
+
+mobile=13000000001
+
+<> 2024-01-01T171254.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/x-www-form-urlencoded
+
+mobile=15000000001
+
+<> 2024-01-01T163027.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/x-www-form-urlencoded
+
+mobile=15000000001
+
+<> 2024-01-01T162941.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/x-www-form-urlencoded
+
+mobile=1500000000
+
+<> 2024-01-01T162937.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/x-www-form-urlencoded
+
+mobile=15000000001
+
+<> 2024-01-01T162817.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=12345678
+
+<> 2024-01-01T162654.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=12345678
+
+<> 2024-01-01T162604.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=12345678
+
+<> 2024-01-01T044206.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=
+
+<> 2023-12-30T172121.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=
+
+<> 2023-12-30T171526.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=
+
+<> 2023-12-30T113344.200.json
+
+###
+
+POST http://localhost:8000/member/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=
+
+<> 2023-12-30T113339.200.json
+
+###
+

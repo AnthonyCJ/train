@@ -1,12 +1,8 @@
-# gtr生成GET请求
 GET http://localhost:8000/member/member/count
 Accept: application/json
 token: 123
 
 ###
-# ptr生成POST请求
-# ptrp生成带参数的POST请求
-# 参数的名字要和controller层方法中的参数名称一致，这样才能做自动映射
 POST http://localhost:8000/member/member/register
 Content-Type: application/x-www-form-urlencoded
 
@@ -28,5 +24,11 @@ Content-Type: application/json
   "mobile": "13000000001",
   "code": "8888"
 }
+
+> {%
+client.log(JSON.stringify(response.body));
+client.log(JSON.stringify(response.body.content.token));
+client.global.set("token", response.body.content.token);
+%}
 
 ###
