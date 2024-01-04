@@ -1,4 +1,4 @@
-package com.anthonycj.train.generator.server;
+package com.anthonycj.train.generator.gen;
 
 import com.anthonycj.train.generator.util.DbUtil;
 import com.anthonycj.train.generator.util.Field;
